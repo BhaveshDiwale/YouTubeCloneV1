@@ -1,0 +1,23 @@
+#grid-card-container{
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1.5vw;
+    padding-left: 1.5vw;
+}
+.cards:hover{
+    scale: 1.01;
+    transition: .2s linear;
+}
+.card-head img{
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card-head img:hover{
+    border-radius: 0;
+    transition: 0.2s linear;
+}
+
+.channelName , .channelStatistics{
+    font-size: 14px;
+    font-weight: 700;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.ham{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.ytlogo{
+    position: relative;
+    bottom: 8px;
+    margin: 0 2px 0 20px;
+}
+
+.logo-wrap{
+    display: flex;
+}
+
+#logo-heading{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.search-bar{
+    width: 500px;
+    padding: 5px;
+    border: 1px solid dimgray;
+    border-radius: 20px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.mics{
+    position: relative;
+    margin: 0 5px;
+    background-color:rgb(20,20,20);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.right-nav{
+    margin-right: 20px;
+}
+
+.signIn{
+    margin-left: 20px;
+    color: deepskyblue;
+    border-radius: 20px;
+    padding:  2px 10px;
+}
+
+#man{
+    color: deepskyblue;
+    position: relative;
+    bottom: 2px;
+    margin: 10px;
+}
+
+#more{
+    position: absolute;
+}
+
+#man1{
+    color: deepskyblue;
+    /* bottom: 5px; */
+}
+
+#video{
+    margin: 10px;
+}
+
+#bell{
+    margin: 10px 0 10px 10px;
+}
+
+sup{
+    top: 0.5em;
+    right: 5px;
+}

@@ -1,0 +1,53 @@
+.main-sidebar{
+ height: 800px;
+ overflow-y: scroll;
+ scroll-behavior: smooth;
+ flex-direction: column;
+ position: sticky;
+ top: 0;
+
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: dimgray;
+  }  
+  ::-webkit-scrollbar-track {
+    background: rgb(15,15,15);
+  }  
+.row1{
+    padding: 5px 20px;
+    
+}
+
+.icon{
+    margin-right: 20px;
+}
+
+.row-special{
+    border-bottom: 1px solid dimgray;
+}
+
+.copyright{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.utility{
+    list-style: none;
+    display: inline;
+    
+}
+
+.utility a{
+    text-decoration: none;
+    margin: 2px;
+    color: gray;
+}
+
+.sidebar-2{
+    /* padding: 10px 10px 10px 25px; */
+    flex-direction: column;
+}
